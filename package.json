@@ -1,0 +1,28 @@
+{
+  "name": "ui5-task-librarian",
+  "version": "1.0.1",
+  "description": "UI5 Tooling task to track down redundant libraries in JS and XML source files.",
+  "keywords": [
+    "ui5",
+    "sapui5",
+    "openui5"
+  ],
+  "author": {
+    "name": "Pieter Janssens"
+  },
+  "license": "Apache-2.0",
+  "funding": "🍺",
+  "homepage": "https://github.com/piejanssens/ui5-task-librarian",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piejanssens/ui5-task-librarian"
+  },
+  "dependencies": {
+    "@ui5/logger": "^2.0.0",
+    "amdextract": "^3.0.0",
+    "xmldom": "^0.4.0"
+  },
+  "ui5": {
+    "dependencies": []
+  }
+}
