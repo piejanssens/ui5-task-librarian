@@ -56,13 +56,13 @@ WARN builder:customtask:librarian 📚 Unused UI5 library sap/m/MessageBox at /r
 Used libraries will be reported instead of the unused ones. SAP, OpenUI5 or others reported at info level. Overrides regular output.
 ```shell_session
 info builder:builder application skills 🔨 (2/9) Running task ui5-task-librarian...
-WARN builder:customtask:librarian 📚 UI5 Library used: sap.ui.comp.smartform at /resources/com/pj/demo/view/App.view.xml
-WARN builder:customtask:librarian 📚 UI5 Library used: sap.ui.comp.smartfield at /resources/com/pj/demo/view/App.view.xml
-WARN builder:customtask:librarian 📚 UI5 Library used: sap.ui.layout at /resources/com/pj/demo/view/App.view.xml
-WARN builder:customtask:librarian 📚 UI5 Library used: sap.suite.ui.microchart at /resources/com/pj/demo/view/App.view.xml
+info builder:customtask:librarian 📚 UI5 Library used: sap.ui.comp.smartform at /resources/com/pj/demo/view/App.view.xml
+info builder:customtask:librarian 📚 UI5 Library used: sap.ui.comp.smartfield at /resources/com/pj/demo/view/App.view.xml
+info builder:customtask:librarian 📚 UI5 Library used: sap.ui.layout at /resources/com/pj/demo/view/App.view.xml
+info builder:customtask:librarian 📚 UI5 Library used: sap.suite.ui.microchart at /resources/com/pj/demo/view/App.view.xml
 info builder:customtask:librarian 📚 External library or resource used: ./model/formatter at /resources/com/pj/demo/test/unit/AllTests.js
 info builder:customtask:librarian 📚 External library or resource used: ./ObjectJourney at /resources/com/pj/demo/test/integration/AllJourneys.js
-WARN builder:customtask:librarian 📚 UI5 Library used: sap/m/MessageBox at /resources/com/pj/demo/controller/App.controller.js
+info builder:customtask:librarian 📚 UI5 Library used: sap/m/MessageBox at /resources/com/pj/demo/controller/App.controller.js
 ```
 
 ### strict (true|false)
