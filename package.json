@@ -1,7 +1,7 @@
 {
   "name": "ui5-task-librarian",
-  "version": "1.0.1",
-  "description": "UI5 Tooling task to track down redundant libraries in JS and XML source files.",
+  "version": "1.0.2",
+  "description": "UI5 Tooling task to track down redundant libraries in JS and XML source files or get a list of all libraries used.",
   "keywords": [
     "ui5",
     "sapui5",
@@ -10,6 +10,11 @@
   "author": {
     "name": "Pieter Janssens"
   },
+  "contributors": [
+    {
+      "name" : "Pedro González-Tarrío Polo"
+    }
+  ],
   "license": "Apache-2.0",
   "funding": "🍺",
   "homepage": "https://github.com/piejanssens/ui5-task-librarian",
